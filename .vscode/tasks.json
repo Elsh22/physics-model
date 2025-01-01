@@ -14,7 +14,7 @@
                 "${workspaceFolder}/src/glad.c",
                 "-lglfw3dll",
                 "-o",
-                "${workspaceFolder}/cutable.exe"
+                "${workspaceFolder}/output.exe"// needs to be my the glfw3.dll to run tired putting it in the src but got errors. 
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
